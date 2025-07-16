@@ -21,11 +21,11 @@ Each user can have multiple roles. Each role can have multiple permissions. When
 
 ## Example flow
 
-1. Create a user: `Tom`
+1. Create a user: `Jalen`
 2. Create a role: `Admin`
-3. Assign the role `Admin` to `Tom`
+3. Assign the role `Admin` to `Jalen`
 4. Assign permission `delete` to the role `Admin`
-5. Check if `Tom` has permission `delete` → returns true
+5. Check if `Jalen` has permission `delete` → returns true
 
 ## Future ideas
 
@@ -33,3 +33,5 @@ Each user can have multiple roles. Each role can have multiple permissions. When
 - Add timestamps or basic logging
 - Build a simple GUI using JavaFX later on
 
+---
+Built by [@doitformyset](https://github.com/doitformyset)
